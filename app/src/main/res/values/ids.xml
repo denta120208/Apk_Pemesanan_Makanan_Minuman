@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvConfirmationMessage" type="id" />
+    <item name="progressBar" type="id" />
+    <item name="btnDone" type="id" />
+    <item name="ivSuccessIcon" type="id" />
+    <item name="tvSubMessage" type="id" />
+    <item name="tvPaymentMethod" type="id" />
+</resources>

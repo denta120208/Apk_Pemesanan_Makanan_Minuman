@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F9FAFB">
+
+    <!-- Icon Success -->
+    <ImageView
+        android:id="@+id/ivSuccessIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cekliss"
+        android:contentDescription="Success Icon"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Confirmation Message -->
+    <TextView
+        android:id="@+id/tvConfirmationMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Successful!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"
+        android:layout_marginBottom="8dp"
+        android:gravity="center" />
+
+    <!-- Payment Method -->
+    <TextView
+        android:id="@+id/tvPaymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Method: "
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Done Button -->
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
